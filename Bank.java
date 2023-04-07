@@ -1,32 +1,16 @@
-package MyPackage;
+package Today7Apr;
 
-public class Bank {
-private long account_num;
-private String name,email;
-private float amount;
-public long getAccount_num() {
-	return account_num;
+class Bank {
+long AccountNo;
+String CustomerName;
+double Balance;
+int CustomerAge;
+public Bank(long AccountNo,String CustomerName,double Balance,int CustomerAge) {
+this.AccountNo = AccountNo;
+this.CustomerName = CustomerName;
+this.Balance = Balance;
+this.CustomerAge = CustomerAge;
 }
-public void setAccount_num(long account_num) {
-	this.account_num = account_num;
-}
-public String getName() {
-	return name;
-}
-public void setName(String name) {
-	this.name = name;
-}
-public String getEmail() {
-	return email;
-}
-public void setEmail(String email) {
-	this.email = email;
-}
-public float getAmount() {
-	return amount;
-}
-public void setAmount(float amount) {
-	this.amount = amount;
-}
-
-}
+public Bank() {
+	// TODO Auto-generated constructor stub
+}}
